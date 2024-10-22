@@ -15,7 +15,8 @@ const product_registration = new db.Schema({
   },
   expiration_date: {
     type: Date,
-    required: true
+    required: true,
+    default: Date.now
   },
 });
 
